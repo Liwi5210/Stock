@@ -1,0 +1,43 @@
+body {
+    white-space:nowrap;
+    font-size: 20px;
+    font-size: max(20px, 1em);
+    font-family: inherit;
+}
+
+ul {
+    list-style: none;
+    padding-left:0;
+}
+
+.ds-select {    
+    font-size: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#ds-label {
+  padding-left: 3px;
+}
+
+#title {
+    font-size: 12px;
+    text-align: center;
+}
+
+#chart-select {
+    display: none;
+    font-size: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#copy-on-click-select {
+    display: none;
+    font-size: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#open_new_tab {
+    margin-top: 5px;
+}
